@@ -1,7 +1,12 @@
 package com.intech.netflix.premierservice.model;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class Media {
 
+	@Id
 	private Integer id;
 	private String title;
 	private float rating;

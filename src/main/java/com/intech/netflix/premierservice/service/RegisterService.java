@@ -1,7 +1,9 @@
 package com.intech.netflix.premierservice.service;
 
 import okhttp3.*;
+import org.springframework.stereotype.Service;
 
+@Service
 public class RegisterService {
 
     public void mutliRegister(int i) throws Exception {
