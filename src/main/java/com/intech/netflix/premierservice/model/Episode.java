@@ -5,6 +5,7 @@ public class Episode {
 	private Integer id;
 	private String epTitle;
 	private int duration;
+
 	
 	public Integer getId() {
 		return id;
